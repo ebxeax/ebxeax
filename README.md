@@ -1,1 +1,1 @@
-![ebxeax's GitHub stats](https://github-readme-stats.vercel.app/api?username=ebxeax)
+![Visitor Count](https://profile-counter.glitch.me/{ebxeax}/count.svg)
