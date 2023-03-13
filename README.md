@@ -1,4 +1,3 @@
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=IjLjQ93ANdm5uefozck2ftWhnDOMkaT2in0bqn99qDw&cl=ffffff&w=a"></script>
 
 <a href=#><img src="contributions.svg"></a>
 
