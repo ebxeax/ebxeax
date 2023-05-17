@@ -2,4 +2,4 @@
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=ebxeax&layout=compact&count_private=true&theme=dark)
 
-[site1](https://ebxeax.github.io) | [site2](https://ebxeax.vercel.app)
+Welcome to my homepages := [site1](https://ebxeax.github.io) | [site2](https://ebxeax.vercel.app)
