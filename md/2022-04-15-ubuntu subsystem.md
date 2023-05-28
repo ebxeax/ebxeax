@@ -51,7 +51,7 @@ sudo vi /etc/xrdp/xrdp.ini
 
 ```
 
-![img](../images/20200411113004919.jpg)
+![img]https://raw.githubusercontent.com/ebxeax/images/main/20200411113004919.jpg)
 
 ```
 3.向 xsession 中写入 xfce4-session： sudo echo xfce4-session >~/.xsession 4、重启 xrdp 服务：
@@ -63,21 +63,11 @@ sudo service xrdp restart
 
 **启动远程桌面**
 1.启动Windows的远程桌面：
-
-![img](https://img-blog.csdnimg.cn/20200411113139166.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2d5d2l3eXE=,size_16,color_FFFFFF,t_70)
-
  
-
 2.点击显示选项，填入：
 
 localhost:3390
 
-![img](https://img-blog.csdnimg.cn/2020041111321617.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2d5d2l3eXE=,size_16,color_FFFFFF,t_70)
-
- 
-
 3.点击连接。
 
 4．输入用户名和密码：
-
-![img](https://img-blog.csdnimg.cn/20200411113305571.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2d5d2l3eXE=,size_16,color_FFFFFF,t_70)

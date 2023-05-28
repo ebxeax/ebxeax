@@ -1,6 +1,6 @@
 # 第五章 中央处理器CPU
 
-![image-20210721184403798](../images/image-20210721184403798.jpg)
+![image-20210721184403798]https://raw.githubusercontent.com/ebxeax/images/main/image-20210721184403798.jpg)
 
 ## CPU的功能和结构
 
@@ -8,27 +8,27 @@
 
 1.指令控制
 
-![image-20210721185931323](../images/image-20210721185931323.jpg)
+![image-20210721185931323]https://raw.githubusercontent.com/ebxeax/images/main/image-20210721185931323.jpg)
 
 2.操作控制
 
-![image-20210721185942291](../images/image-20210721185942291.jpg)
+![image-20210721185942291]https://raw.githubusercontent.com/ebxeax/images/main/image-20210721185942291.jpg)
 
 3.时间控制
 
-![image-20210721190019863](../images/image-20210721190019863.jpg)
+![image-20210721190019863]https://raw.githubusercontent.com/ebxeax/images/main/image-20210721190019863.jpg)
 
 4.数据加工
 
-![image-20210721190027711](../images/image-20210721190027711.jpg)
+![image-20210721190027711]https://raw.githubusercontent.com/ebxeax/images/main/image-20210721190027711.jpg)
 
 5.中断处理
 
-![image-20210721190038328](../images/image-20210721190038328.jpg)
+![image-20210721190038328]https://raw.githubusercontent.com/ebxeax/images/main/image-20210721190038328.jpg)
 
 ### 运算器和控制器的功能
 
-![image-20210721190511050](../images/image-20210721190511050.jpg)
+![image-20210721190511050]https://raw.githubusercontent.com/ebxeax/images/main/image-20210721190511050.jpg)
 
 #### 运算器的基本结构
 
@@ -40,7 +40,7 @@
 
 存放操作数（包括源操作数、目的操作数及中间结果和各地址信息等）如AX,BX,CX,DX,SP等
 
-![image-20210721200236671](../images/image-20210721200236671.jpg)
+![image-20210721200236671]https://raw.githubusercontent.com/ebxeax/images/main/image-20210721200236671.jpg)
 
 ##### 连线方式
 
@@ -50,22 +50,22 @@
 
 方法1：使用多路选择器
 
-![image-20210727123834990](../images/image-20210727123834990.jpg)
+![image-20210727123834990]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727123834990.jpg)
 
-![image-20210727123914076](../images/image-20210727123914076.jpg)
+![image-20210727123914076]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727123914076.jpg)
 
 方法2：使用三态门
 
 可以控制每一路是否输出
 
-![image-20210721200929571](../images/image-20210721200929571.jpg)
+![image-20210721200929571]https://raw.githubusercontent.com/ebxeax/images/main/image-20210721200929571.jpg)
 $$
 \begin{align}
 &R0_{out}=1时R_0中的数据输出到A端\\
 &R0_{out}=0时R_0中的数据无法输出到B端\\
 \end{align}
 $$
-![image-20210721201132262](../images/image-20210721201132262.jpg)
+![image-20210721201132262]https://raw.githubusercontent.com/ebxeax/images/main/image-20210721201132262.jpg)
 
 3.暂存寄存器
 
@@ -75,34 +75,34 @@ $$
 
 ###### CPU内部单总线方式：所有寄存器的输入端和输出端都连接在一条公共的通路上
 
-![image-20210721201529622](../images/image-20210721201529622.jpg)
+![image-20210721201529622]https://raw.githubusercontent.com/ebxeax/images/main/image-20210721201529622.jpg)
 
-![img](../images/Y_E{PDCPUM333AYF}FO%F_V.jpg)
+![img]https://raw.githubusercontent.com/ebxeax/images/main/Y_E{PDCPUM333AYF}FO%F_V.jpg)
 
 $$
 \begin{align}
 &暂存寄存器解决需要多个数据时造成的总线冲突，如需要R_0+R_1时会造成总线冲突，先把R_0传输到数据总线，R_1放置于暂存寄存器，等待R_0传输结束,在将R_1从暂存寄存器中传至数据总线完成一次加法\\
 \end{align}
 $$
-![image-20210727125341977](../images/image-20210727125341977.jpg)
+![image-20210727125341977]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727125341977.jpg)
 
 4.累加寄存器
 
-![image-20210727125619934](../images/image-20210727125619934.jpg)
+![image-20210727125619934]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727125619934.jpg)
 
-![image-20210727125528863](../images/image-20210727125528863.jpg)
+![image-20210727125528863]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727125528863.jpg)
 
 5.程序状态字寄存器
 
-![image-20210727125646606](../images/image-20210727125646606.jpg)
+![image-20210727125646606]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727125646606.jpg)
 
-![image-20210727125730949](../images/image-20210727125730949.jpg)
+![image-20210727125730949]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727125730949.jpg)
 
 6.移位器
 
 对运算结果进行移位运算
 
-![image-20210727125820889](../images/image-20210727125820889.jpg)
+![image-20210727125820889]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727125820889.jpg)
 
 7.计数器
 
@@ -110,11 +110,11 @@ $$
 
 #### 控制器的基本结构
 
-![image-20210727130643958](../images/image-20210727130643958.jpg)
+![image-20210727130643958]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727130643958.jpg)
 
  1.程序计数器
 
-![image-20210727130223050](../images/image-20210727130223050.jpg)
+![image-20210727130223050]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727130223050.jpg)
 
 2.指令寄存器
 
@@ -144,11 +144,11 @@ $$
 
 用户可见的寄存器（可编程，即程序员可以通过汇编语言操作的寄存器）
 
-![image-20210727131611682](../images/image-20210727131611682.jpg)
+![image-20210727131611682]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727131611682.jpg)
 
 ### 总结
 
-![image-20210727131638321](../images/image-20210727131638321.jpg)
+![image-20210727131638321]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727131638321.jpg)
 
 ## 指令执行过程
 
@@ -156,67 +156,67 @@ $$
 
 **指令周期**常常用于若干**机器周期**来表示，机器周期又叫**CPU周期**
 
-![image-20210727175501451](../images/image-20210727175501451.jpg)
+![image-20210727175501451]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727175501451.jpg)
 
-![image-20210727175516629](../images/image-20210727175516629.jpg)
+![image-20210727175516629]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727175516629.jpg)
 
 一个**机器周期**又包括若干个**时钟周期**（也称**节拍**，**T周期**或**CPU时钟周期**，是CPU操作的**最基本单位**）
 
-![image-20210727175306246](../images/image-20210727175306246.jpg)
+![image-20210727175306246]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727175306246.jpg)
 
-![image-20210727175917458](../images/image-20210727175917458.jpg)
+![image-20210727175917458]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727175917458.jpg)
 
 ### 指令周期流程
 
-![image-20210727180005843](../images/image-20210727180005843.jpg)
+![image-20210727180005843]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727180005843.jpg)
 
-![image-20210727180324241](../images/image-20210727180324241.jpg)
+![image-20210727180324241]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727180324241.jpg)
 
-![image-20210727180306810](../images/image-20210727180306810.jpg)
+![image-20210727180306810]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727180306810.jpg)
 
 ### 取指周期
 
-![image-20210727180516212](../images/image-20210727180516212.jpg)
+![image-20210727180516212]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727180516212.jpg)
 
-![image-20210727180531888](../images/image-20210727180531888.jpg)
+![image-20210727180531888]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727180531888.jpg)
 
 ### 间址周期
 
-![image-20210727180808953](../images/image-20210727180808953.jpg)
+![image-20210727180808953]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727180808953.jpg)
 
-![image-20210727180828153](../images/image-20210727180828153.jpg)
+![image-20210727180828153]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727180828153.jpg)
 
 ### 执行周期
 
-![image-20210727181338562](../images/image-20210727181338562.jpg)
+![image-20210727181338562]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727181338562.jpg)
 
 ### 中断周期
 
-![image-20210727180959374](../images/image-20210727180959374.jpg)
+![image-20210727180959374]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727180959374.jpg)
 
-![image-20210727181206770](../images/image-20210727181206770.jpg)
+![image-20210727181206770]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727181206770.jpg)
 
-![image-20210727181311557](../images/image-20210727181311557.jpg)
+![image-20210727181311557]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727181311557.jpg)
 
-![image-20210727181239381](../images/image-20210727181239381.jpg)
+![image-20210727181239381]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727181239381.jpg)
 
 ### 指令执行方案
 
 #### 单指令周期
 
-![image-20210727181521088](../images/image-20210727181521088.jpg)
+![image-20210727181521088]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727181521088.jpg)
 
 #### 多指令周期
 
-![image-20210727181540094](../images/image-20210727181540094.jpg)
+![image-20210727181540094]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727181540094.jpg)
 
 #### 流水线周期
 
-![image-20210727181603193](../images/image-20210727181603193.jpg)
+![image-20210727181603193]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727181603193.jpg)
 
 ### 总结
 
-![image-20210727181821416](../images/image-20210727181821416.jpg)
+![image-20210727181821416]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727181821416.jpg)
 
 ## 数据通路的功能
 
@@ -230,35 +230,35 @@ $$
 
 ### CPU内部总线方式
 
-![image-20210727171132827](../images/image-20210727171132827.jpg)
+![image-20210727171132827]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727171132827.jpg)
 
 #### 寄存器之间数据传输
 
-![image-20210727171245965](../images/image-20210727171245965.jpg)
+![image-20210727171245965]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727171245965.jpg)
 
-![image-20210727171606113](../images/image-20210727171606113.jpg)
+![image-20210727171606113]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727171606113.jpg)
 
 #### 主存与CPU之间的数据传送
 
-![image-20210727171428283](../images/image-20210727171428283.jpg)
+![image-20210727171428283]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727171428283.jpg)
 
-![image-20210727171525674](../images/image-20210727171525674.jpg)
+![image-20210727171525674]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727171525674.jpg)
 
 #### 执行算术或逻辑运算
 
-![image-20210727171933830](../images/image-20210727171933830.jpg)
+![image-20210727171933830]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727171933830.jpg)
 
-![image-20210727171923259](../images/image-20210727171923259.jpg)
+![image-20210727171923259]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727171923259.jpg)
 
 #### 例题
 
-![image-20210727174532011](../images/image-20210727174532011.jpg)
+![image-20210727174532011]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727174532011.jpg)
 
-![image-20210727174557930](../images/image-20210727174557930.jpg)
+![image-20210727174557930]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727174557930.jpg)
 
 1.分析指令功能和指令周期
 
-![image-20210727183522172](../images/image-20210727183522172.jpg)
+![image-20210727183522172]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727183522172.jpg)
 
 2.写出各阶段的指令流程
 
@@ -271,7 +271,7 @@ $$
 | 3    | (MDR)->IR              | MDRout,IRin        |
 | 4    | 指令译码               | -                  |
 
-![image-20210727190232964](../images/image-20210727190232964.jpg)
+![image-20210727190232964]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727190232964.jpg)
 
 **间址周期**
 
@@ -283,7 +283,7 @@ $$
 | 2    | M(MAR)->MDR | MemR,MARout,MDRinE |
 | 3    | (MDR)->Y    | MDRout,Yin         |
 
-![image-20210727190153694](../images/image-20210727190153694.jpg)
+![image-20210727190153694]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727190153694.jpg)
 
 **执行周期**
 
@@ -297,11 +297,11 @@ $$
 
 ### 总结
 
-![image-20210727191919813](../images/image-20210727191919813.jpg)
+![image-20210727191919813]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727191919813.jpg)
 
 ## 专用数据通路
 
-![image-20210727192531465](../images/image-20210727192531465.jpg)
+![image-20210727192531465]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727192531465.jpg)
 
 ### 取指周期
 
@@ -318,11 +318,11 @@ $$
 
 例题
 
-![image-20210727205416083](../images/image-20210727205416083.jpg)
+![image-20210727205416083]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727205416083.jpg)
 
-![image-20210727205357777](../images/image-20210727205357777.jpg)
+![image-20210727205357777]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727205357777.jpg)
 
-![image-20210727205429814](../images/image-20210727205429814.jpg)
+![image-20210727205429814]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727205429814.jpg)
 $$
 \begin{align}
 &(1)a:MDR,b:IR,c:MAR,d:PC\\
@@ -351,108 +351,108 @@ $$
 
 ### 总结
 
-![image-20210727213702928](../images/image-20210727213702928.jpg)
+![image-20210727213702928]https://raw.githubusercontent.com/ebxeax/images/main/image-20210727213702928.jpg)
 
 ## 控制器设计 硬布线控制器
 
-![image-20210728095801939](../images/image-20210728095801939.jpg)
+![image-20210728095801939]https://raw.githubusercontent.com/ebxeax/images/main/image-20210728095801939.jpg)
 
-![image-20210728095955749](../images/image-20210728095955749.jpg)
+![image-20210728095955749]https://raw.githubusercontent.com/ebxeax/images/main/image-20210728095955749.jpg)
 $$
 \begin{align}
 &CU发出一个微命令，可完成对应的微操作\\
 &如：微命令1使得PC_{out},MAR_{in}有效,完成对应的微操作1(PC)\rightarrow MAR\\
 \end{align}
 $$
-![image-20210728100041937](../images/image-20210728100041937.jpg)
+![image-20210728100041937]https://raw.githubusercontent.com/ebxeax/images/main/image-20210728100041937.jpg)
 
 根据**指令操作码**，**目前的机器周期**，**节拍信号**，**机器状态条件**，即可确定现在这个节拍下**应该发出哪些“微命令”**
 
-![image-20210728100823083](../images/image-20210728100823083.jpg)
+![image-20210728100823083]https://raw.githubusercontent.com/ebxeax/images/main/image-20210728100823083.jpg)
 
-![image-20210728100838801](../images/image-20210728100838801.jpg)
+![image-20210728100838801]https://raw.githubusercontent.com/ebxeax/images/main/image-20210728100838801.jpg)
 
-![image-20210728100906275](../images/image-20210728100906275.jpg)
+![image-20210728100906275]https://raw.githubusercontent.com/ebxeax/images/main/image-20210728100906275.jpg)
 
 ### 硬布线控制器的设计
 
-![image-20210728101324227](../images/image-20210728101324227.jpg)
+![image-20210728101324227]https://raw.githubusercontent.com/ebxeax/images/main/image-20210728101324227.jpg)
 
-![image-20210728101334738](../images/image-20210728101334738.jpg)
+![image-20210728101334738]https://raw.githubusercontent.com/ebxeax/images/main/image-20210728101334738.jpg)
 
 #### 微操作序列
 
 ##### 取指周期微操作序列
 
-![image-20210728101733688](../images/image-20210728101733688.jpg)
+![image-20210728101733688]https://raw.githubusercontent.com/ebxeax/images/main/image-20210728101733688.jpg)
 
 ##### 间址周期微操作序列
 
-![image-20210728101748131](../images/image-20210728101748131.jpg)
+![image-20210728101748131]https://raw.githubusercontent.com/ebxeax/images/main/image-20210728101748131.jpg)
 
 ##### 执行周期微操作序列
 
-![image-20210728101801822](../images/image-20210728101801822.jpg)
+![image-20210728101801822]https://raw.githubusercontent.com/ebxeax/images/main/image-20210728101801822.jpg)
 
 #### 安排微操作时序的原则
 
-![image-20210728103230882](../images/image-20210728103230882.jpg)
+![image-20210728103230882]https://raw.githubusercontent.com/ebxeax/images/main/image-20210728103230882.jpg)
 
 ##### 安排微操作时序 取指周期
 
-![image-20210728103327517](../images/image-20210728103327517.jpg)
+![image-20210728103327517]https://raw.githubusercontent.com/ebxeax/images/main/image-20210728103327517.jpg)
 
-![image-20210728103346913](../images/image-20210728103346913.jpg)
+![image-20210728103346913]https://raw.githubusercontent.com/ebxeax/images/main/image-20210728103346913.jpg)
 
 ##### 安排微操作时序 间址周期
 
-![image-20210728103427192](../images/image-20210728103427192.jpg)
+![image-20210728103427192]https://raw.githubusercontent.com/ebxeax/images/main/image-20210728103427192.jpg)
 
 ##### 安排微操作时序 执行周期
 
 非访存指令
 
-![image-20210728103900058](../images/image-20210728103900058.jpg)
+![image-20210728103900058]https://raw.githubusercontent.com/ebxeax/images/main/image-20210728103900058.jpg)
 
 访存指令
 
-![image-20210728103942211](../images/image-20210728103942211.jpg)
+![image-20210728103942211]https://raw.githubusercontent.com/ebxeax/images/main/image-20210728103942211.jpg)
 
 转移指令
 
-![image-20210728104003240](../images/image-20210728104003240.jpg)
+![image-20210728104003240]https://raw.githubusercontent.com/ebxeax/images/main/image-20210728104003240.jpg)
 
 ### 组合逻辑设计
 
-![image-20210728104233566](../images/image-20210728104233566.jpg)
+![image-20210728104233566]https://raw.githubusercontent.com/ebxeax/images/main/image-20210728104233566.jpg)
 
 #### 列出操作时间表
 
 ##### 取值周期
 
-![image-20210728104423800](../images/image-20210728104423800.jpg)
+![image-20210728104423800]https://raw.githubusercontent.com/ebxeax/images/main/image-20210728104423800.jpg)
 
 ##### 间址周期
 
-![image-20210728104530650](../images/image-20210728104530650.jpg)
+![image-20210728104530650]https://raw.githubusercontent.com/ebxeax/images/main/image-20210728104530650.jpg)
 
 ##### 执行周期
 
-![image-20210728104729864](../images/image-20210728104729864.jpg)
+![image-20210728104729864]https://raw.githubusercontent.com/ebxeax/images/main/image-20210728104729864.jpg)
 
 #### 微操作信号综合
 
-![image-20210728105806788](../images/image-20210728105806788.jpg)
+![image-20210728105806788]https://raw.githubusercontent.com/ebxeax/images/main/image-20210728105806788.jpg)
 
 #### 画出逻辑图
 
-![image-20210728110020898](../images/image-20210728110020898.jpg)
+![image-20210728110020898]https://raw.githubusercontent.com/ebxeax/images/main/image-20210728110020898.jpg)
 
 ### 硬布线控制器的设计
 
-![image-20210728110254068](../images/image-20210728110254068.jpg)
+![image-20210728110254068]https://raw.githubusercontent.com/ebxeax/images/main/image-20210728110254068.jpg)
 
-![image-20210728110307116](../images/image-20210728110307116.jpg)
+![image-20210728110307116]https://raw.githubusercontent.com/ebxeax/images/main/image-20210728110307116.jpg)
 
 ## 微程序控制器
 
@@ -460,9 +460,9 @@ $$
 
 采用“存储程序”的思想，CPU出厂前将所有指令的“微程序”存入“控制器存储器”中
 
-![image-20210729102726305](../images/image-20210729102726305.jpg)
+![image-20210729102726305]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729102726305.jpg)
 
-![image-20210729102743382](../images/image-20210729102743382.jpg)
+![image-20210729102743382]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729102743382.jpg)
 
 **程序**由**机器指令**序列组成
 
@@ -486,11 +486,11 @@ $$
 
 **机器指令**是对**微指令**功能的“封装”
 
-![image-20210729103423858](../images/image-20210729103423858.jpg)
+![image-20210729103423858]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729103423858.jpg)
 
 ### 微程序控制器的基本结构
 
-![image-20210729104157450](../images/image-20210729104157450.jpg)
+![image-20210729104157450]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729104157450.jpg)
 
 （1）由**IR**将**机器指令操作码**传入**微地址形成部件**
 
@@ -518,15 +518,15 @@ $$
 
 ![image-20210729181813952](image-20210729181813952.jpg)
 
-![image-20210729182104676](../images/image-20210729182104676.jpg)
+![image-20210729182104676]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729182104676.jpg)
 
-![image-20210729182145215](../images/image-20210729182145215.jpg)
+![image-20210729182145215]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729182145215.jpg)
 
 如果某指令系统中有n条机器指令，则CM中的微程序（段）的个数至少是n+1个
 
 ### 总结
 
-![image-20210729182513663](../images/image-20210729182513663.jpg)
+![image-20210729182513663]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729182513663.jpg)
 
 ## 微指令的设计
 
@@ -538,105 +538,105 @@ $$
 
 #### 水平型微指令
 
-![image-20210729205611725](../images/image-20210729205611725.jpg)
+![image-20210729205611725]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729205611725.jpg)
 
-![image-20210729205732403](../images/image-20210729205732403.jpg)
+![image-20210729205732403]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729205732403.jpg)
 
-![image-20210729205755139](../images/image-20210729205755139.jpg)
+![image-20210729205755139]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729205755139.jpg)
 
-![image-20210729205742921](../images/image-20210729205742921.jpg)
+![image-20210729205742921]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729205742921.jpg)
 
 #### 垂直型微指令
 
-![image-20210729205712889](../images/image-20210729205712889.jpg)
+![image-20210729205712889]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729205712889.jpg)
 
-![image-20210729205815319](../images/image-20210729205815319.jpg)
+![image-20210729205815319]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729205815319.jpg)
 
-![image-20210729205828836](../images/image-20210729205828836.jpg)
+![image-20210729205828836]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729205828836.jpg)
 
-![image-20210729205850832](../images/image-20210729205850832.jpg)
+![image-20210729205850832]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729205850832.jpg)
 
 #### 混合型微指令
 
-![image-20210729210027405](../images/image-20210729210027405.jpg)
+![image-20210729210027405]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729210027405.jpg)
 
 ### 微指令的编码方式
 
-![image-20210729210128682](../images/image-20210729210128682.jpg)
+![image-20210729210128682]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729210128682.jpg)
 
-![image-20210729210113651](../images/image-20210729210113651.jpg)
+![image-20210729210113651]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729210113651.jpg)
 
 #### 直接编码（直接控制）方式
 
-![image-20210729211511059](../images/image-20210729211511059.jpg)
+![image-20210729211511059]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729211511059.jpg)
 
 #### 字段直接编码方式
 
-![image-20210729211720861](../images/image-20210729211720861.jpg)
+![image-20210729211720861]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729211720861.jpg)
 
-例题：![image-20210729211856151](../images/image-20210729211856151.jpg)
+例题：![image-20210729211856151]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729211856151.jpg)
 
 解答：
 
-![image-20210729211924228](../images/image-20210729211924228.jpg)
+![image-20210729211924228]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729211924228.jpg)
 
-![image-20210729213402466](../images/image-20210729213402466.jpg)
+![image-20210729213402466]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729213402466.jpg)
 
 #### 字段间接编码方式（隐式编码）
 
-![image-20210729213457662](../images/image-20210729213457662.jpg)
+![image-20210729213457662]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729213457662.jpg)
 
-![image-20210729213508419](../images/image-20210729213508419.jpg)
+![image-20210729213508419]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729213508419.jpg)
 
 ### 微指令的地址形成方式
 
 #### 微指令的**下地址字段**指出
 
-![image-20210729213822807](../images/image-20210729213822807.jpg)
+![image-20210729213822807]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729213822807.jpg)
 
 #### 根据机器指令的操作码形成
 
-![image-20210729213835096](../images/image-20210729213835096.jpg)
+![image-20210729213835096]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729213835096.jpg)
 
 #### 增量计数器法
 
-![image-20210729213847603](../images/image-20210729213847603.jpg)
+![image-20210729213847603]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729213847603.jpg)
 
 #### 分支转移
 
-![image-20210729213856998](../images/image-20210729213856998.jpg)
+![image-20210729213856998]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729213856998.jpg)
 
-![image-20210729213908415](../images/image-20210729213908415.jpg)
+![image-20210729213908415]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729213908415.jpg)
 
 #### 通过网络测试网络
 
 #### 由硬件产生微程序人口地址
 
-![image-20210729213922731](../images/image-20210729213922731.jpg)
+![image-20210729213922731]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729213922731.jpg)
 
 例题-断定方式
 
-![image-20210729214107257](../images/image-20210729214107257.jpg)
+![image-20210729214107257]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729214107257.jpg)
 
-![image-20210729214202685](../images/image-20210729214202685.jpg)
+![image-20210729214202685]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729214202685.jpg)
 
 解答
 
-![image-20210729214122119](../images/image-20210729214122119.jpg)
+![image-20210729214122119]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729214122119.jpg)
 
 ### 总结
 
-![image-20210729214323666](../images/image-20210729214323666.jpg)
+![image-20210729214323666]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729214323666.jpg)
 
 ## 微程序控制单元的设计
 
 ### 设计步骤
 
-![image-20210729214412052](../images/image-20210729214412052.jpg)
+![image-20210729214412052]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729214412052.jpg)
 
-![image-20210729214754924](../images/image-20210729214754924.jpg)
+![image-20210729214754924]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729214754924.jpg)
 
-![image-20210729215408636](../images/image-20210729215408636.jpg)
+![image-20210729215408636]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729215408636.jpg)
 
 取指周期的第一条微指令地址由硬件自动给出（指令a）
 
@@ -649,57 +649,57 @@ $$
 &OP(IR)\rightarrow 微地址形成部件\rightarrow CMAR\\
 \end{align}
 $$
-![image-20210729215313186](../images/image-20210729215313186.jpg)
+![image-20210729215313186]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729215313186.jpg)
 
-![image-20210729215717102](../images/image-20210729215717102.jpg)
+![image-20210729215717102]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729215717102.jpg)
 
 ### 微程序设计的分类
 
-![image-20210729215843611](../images/image-20210729215843611.jpg)
+![image-20210729215843611]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729215843611.jpg)
 
 ### 硬布线控制器&微程序控制器比较
 
-![image-20210729215951198](../images/image-20210729215951198.jpg)
+![image-20210729215951198]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729215951198.jpg)
 
 ### 总结 
 
-![image-20210729220056932](../images/image-20210729220056932.jpg)
+![image-20210729220056932]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729220056932.jpg)
 
 ## 指令流水
 
-![image-20210729220711583](../images/image-20210729220711583.jpg)
+![image-20210729220711583]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729220711583.jpg)
 
 ### 指令流水的方式
 
 #### 顺序执行方式
 
-![image-20210729220734905](../images/image-20210729220734905.jpg)
+![image-20210729220734905]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729220734905.jpg)
 
 #### 一次重叠执行方式
 
-![image-20210729220806932](../images/image-20210729220806932.jpg)
+![image-20210729220806932]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729220806932.jpg)
 
 #### 二次重叠执行方式
 
-![image-20210729220909305](../images/image-20210729220909305.jpg)
+![image-20210729220909305]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729220909305.jpg)
 
 ### 流水线的表示方式
 
 #### 指令执行过程图
 
-![image-20210729221059504](../images/image-20210729221059504.jpg)
+![image-20210729221059504]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729221059504.jpg)
 
 #### 时空图
 
-![image-20210729221133380](../images/image-20210729221133380.jpg)
+![image-20210729221133380]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729221133380.jpg)
 
 ### 流水线的性能指标
 
 #### 吞吐率
 
-![image-20210729221356700](../images/image-20210729221356700.jpg)
+![image-20210729221356700]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729221356700.jpg)
 
-![image-20210729221534115](../images/image-20210729221534115.jpg)
+![image-20210729221534115]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729221534115.jpg)
 
 **装入时间**：第一条时间从开始到结束的时间
 
@@ -707,21 +707,21 @@ $$
 
 #### 加速比
 
- ![image-20210729221840108](../images/image-20210729221840108.jpg)
+ ![image-20210729221840108]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729221840108.jpg)
 
-![image-20210729221902164](../images/image-20210729221902164.jpg)
+![image-20210729221902164]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729221902164.jpg)
 
-![image-20210729221915321](../images/image-20210729221915321.jpg)
+![image-20210729221915321]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729221915321.jpg)
 
 #### 效率
 
-![image-20210729222016087](../images/image-20210729222016087.jpg)
+![image-20210729222016087]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729222016087.jpg)
 
-![image-20210729222044027](../images/image-20210729222044027.jpg)
+![image-20210729222044027]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729222044027.jpg)
 
 ### 总结
 
-![image-20210729222211865](../images/image-20210729222211865.jpg)
+![image-20210729222211865]https://raw.githubusercontent.com/ebxeax/images/main/image-20210729222211865.jpg)
 
 ## 指令流水线影响因素分类
 
@@ -737,69 +737,69 @@ $$
 
 **Imm**为立即数寄存器
 
-![image-20210730145625224](../images/image-20210730145625224.jpg)
+![image-20210730145625224]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730145625224.jpg)
 
 ### 影响流水线的因素
 
 #### 结构相关（资源冲突）
 
-![image-20210730150329274](../images/image-20210730150329274.jpg)
+![image-20210730150329274]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730150329274.jpg)
 
 类比操作系统互斥
 
 #### 数据相关（数据冲突）
 
-![image-20210730150713416](../images/image-20210730150713416.jpg)
+![image-20210730150713416]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730150713416.jpg)
 
 解决方法1：等待
 
-![image-20210730150845363](../images/image-20210730150845363.jpg)
+![image-20210730150845363]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730150845363.jpg)
 
 （1）硬件阻塞
 
-![image-20210730150909499](../images/image-20210730150909499.jpg)
+![image-20210730150909499]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730150909499.jpg)
 
 （2）软件插入
 
-![image-20210730151024911](../images/image-20210730151024911.jpg)
+![image-20210730151024911]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730151024911.jpg)
 
 解决方案2：数据旁路技术（转发机制）
 
-![image-20210730151239611](../images/image-20210730151239611.jpg)
+![image-20210730151239611]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730151239611.jpg)
 
 解决方案3：编译优化
 
-![image-20210730151306737](../images/image-20210730151306737.jpg)
+![image-20210730151306737]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730151306737.jpg)
 
 #### 控制相关（控制冲突）
 
-![image-20210730151634865](../images/image-20210730151634865.jpg)
+![image-20210730151634865]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730151634865.jpg)
 
 #### 小总结
 
-![image-20210730151736809](../images/image-20210730151736809.jpg)
+![image-20210730151736809]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730151736809.jpg)
 
 ### 流水线的分类
 
-![image-20210730151941937](../images/image-20210730151941937.jpg)
+![image-20210730151941937]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730151941937.jpg)
 
-![image-20210730152011810](../images/image-20210730152011810.jpg)
+![image-20210730152011810]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730152011810.jpg)
 
-![image-20210730152054563](../images/image-20210730152054563.jpg)
+![image-20210730152054563]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730152054563.jpg)
 
-![image-20210730152121282](../images/image-20210730152121282.jpg)
+![image-20210730152121282]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730152121282.jpg)
 
 ### 流水线的多发技术
 
-![image-20210730152255538](../images/image-20210730152255538.jpg)
+![image-20210730152255538]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730152255538.jpg)
 
-![image-20210730152414045](../images/image-20210730152414045.jpg)
+![image-20210730152414045]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730152414045.jpg)
 
-![image-20210730152508546](../images/image-20210730152508546.jpg)
+![image-20210730152508546]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730152508546.jpg)
 
 ### 总结
 
-![image-20210730152616866](../images/image-20210730152616866.jpg)
+![image-20210730152616866]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730152616866.jpg)
 
 ## 五段式指令流水线
 
@@ -809,39 +809,39 @@ $$
 \end{align}
 $$
 
-![image-20210730165925232](../images/image-20210730165925232.jpg)
+![image-20210730165925232]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730165925232.jpg)
 
-![image-20210730165935657](../images/image-20210730165935657.jpg)
+![image-20210730165935657]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730165935657.jpg)
 
 ### 运算类指令的执行过程
 
-![image-20210730170614844](../images/image-20210730170614844.jpg)
+![image-20210730170614844]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730170614844.jpg)
 
-![image-20210730170006307](../images/image-20210730170006307.jpg)
+![image-20210730170006307]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730170006307.jpg)
 
-![image-20210730165943736](../images/image-20210730165943736.jpg)
+![image-20210730165943736]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730165943736.jpg)
 
 ### LOAD指令的执行过程
 
-![image-20210730170437769](../images/image-20210730170437769.jpg)
+![image-20210730170437769]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730170437769.jpg)
 
-![image-20210730170507253](../images/image-20210730170507253.jpg)
+![image-20210730170507253]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730170507253.jpg)
 
-![image-20210730170525648](../images/image-20210730170525648.jpg)
+![image-20210730170525648]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730170525648.jpg)
 
 其他指令都是从寄存器中获得**立即数**进行运算
 
 ### STORE指令的执行过程
 
-![image-20210730170840786](../images/image-20210730170840786.jpg)
+![image-20210730170840786]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730170840786.jpg)
 
-![image-20210730170858271](../images/image-20210730170858271.jpg)
+![image-20210730170858271]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730170858271.jpg)
 
 ### 条件转移指令的执行过程
 
-![image-20210730171512962](../images/image-20210730171512962.jpg)
+![image-20210730171512962]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730171512962.jpg)
 
-![image-20210730171550935](../images/image-20210730171550935.jpg)
+![image-20210730171550935]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730171550935.jpg)
 $$
 \begin{align}
 &（PC）+指令字长+（偏移量*指令字长）\rightarrow PC\\
@@ -851,17 +851,17 @@ $$
 $$
 
 
-![image-20210730171704622](../images/image-20210730171704622.jpg)
+![image-20210730171704622]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730171704622.jpg)
 
 ### 无条件转移指令的执行过程
 
-![image-20210730172158505](../images/image-20210730172158505.jpg)
+![image-20210730172158505]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730172158505.jpg)
 
 例题
 
-![image-20210730172518572](../images/image-20210730172518572.jpg)
+![image-20210730172518572]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730172518572.jpg)
 
-![image-20210730172528293](../images/image-20210730172528293.jpg)
+![image-20210730172528293]https://raw.githubusercontent.com/ebxeax/images/main/image-20210730172528293.jpg)
 
 解答
 

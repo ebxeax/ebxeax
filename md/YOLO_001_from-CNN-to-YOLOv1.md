@@ -1,10 +1,10 @@
 # CNN
 
-![cnn1](../images/cnn1.png)
+![cnn1]https://raw.githubusercontent.com/ebxeax/images/main/cnn1.png)
 
-![cnn2 (2)](../images/cnn2%20(2).png)
+![cnn2 (2)]https://raw.githubusercontent.com/ebxeax/images/main/cnn2%20(2).png)
 
-![cnn3](../images/cnn3.png)
+![cnn3]https://raw.githubusercontent.com/ebxeax/images/main/cnn3.png)
 
 **分类猫和狗**
 
@@ -74,55 +74,55 @@ $$
 
 但如果这偏置与现实不符时，比如当图像不满足平移不变时，我们的模型可能难以拟合我们的训练数据。
 
-![cnn4](../images/cnn4.png)
+![cnn4]https://raw.githubusercontent.com/ebxeax/images/main/cnn4.png)
 
-![image-20220127104222384](../images/cnn5.png)
+![image-20220127104222384]https://raw.githubusercontent.com/ebxeax/images/main/cnn5.png)
 
-![cnn6](../images/cnn6.png)
+![cnn6]https://raw.githubusercontent.com/ebxeax/images/main/cnn6.png)
 
-![cnn7](../images/cnn7.png)
+![cnn7]https://raw.githubusercontent.com/ebxeax/images/main/cnn7.png)
 
-![cnn8](../images/cnn8.png)
+![cnn8]https://raw.githubusercontent.com/ebxeax/images/main/cnn8.png)
 
-![cnn9](../images/cnn9.png)
+![cnn9]https://raw.githubusercontent.com/ebxeax/images/main/cnn9.png)
 
-![image-20220127105601246](../images/image-20220127105601246.png)
+![image-20220127105601246]https://raw.githubusercontent.com/ebxeax/images/main/image-20220127105601246.png)
 
 ## Sharing-Weight
 
-![cnn11](../images/cnn11.png)
+![cnn11]https://raw.githubusercontent.com/ebxeax/images/main/cnn11.png)
 
-![image-20220127110147649](../images/image-20220127110147649.png)
+![image-20220127110147649]https://raw.githubusercontent.com/ebxeax/images/main/image-20220127110147649.png)
 
-![cnn12](../images/cnn12.png)
+![cnn12]https://raw.githubusercontent.com/ebxeax/images/main/cnn12.png)
 
-![cnn13](../images/cnn13.png)
+![cnn13]https://raw.githubusercontent.com/ebxeax/images/main/cnn13.png)
 
-![cnn14](../images/cnn14.png)
+![cnn14]https://raw.githubusercontent.com/ebxeax/images/main/cnn14.png)
 
-![cnn15](../images/cnn15.png)
+![cnn15]https://raw.githubusercontent.com/ebxeax/images/main/cnn15.png)
 
-![cnn16](../images/cnn16.png)
+![cnn16]https://raw.githubusercontent.com/ebxeax/images/main/cnn16.png)
 
-![cnn17](../images/cnn17.png)
+![cnn17]https://raw.githubusercontent.com/ebxeax/images/main/cnn17.png)
 
-![cnn18](../images/cnn18.png)
+![cnn18]https://raw.githubusercontent.com/ebxeax/images/main/cnn18.png)
 
-![cnn19](../images/cnn19.png)
+![cnn19]https://raw.githubusercontent.com/ebxeax/images/main/cnn19.png)
 
 ## Pooling - Max Pooling
 
-![cnn20](../images/cnn20.png)
+![cnn20]https://raw.githubusercontent.com/ebxeax/images/main/cnn20.png)
 
-![cnn20.1](../images/cnn20.1.png)
+![cnn20.1]https://raw.githubusercontent.com/ebxeax/images/main/cnn20.1.png)
 
 **Max-Pooling:选取最大的值 也可选取其他的采用 当然也可不做采用前提是性能足够**
 
-![cnn21](../images/cnn21.png)
+![cnn21]https://raw.githubusercontent.com/ebxeax/images/main/cnn21.png)
 
-![cnn22](../images/cnn22.png)
+![cnn22]https://raw.githubusercontent.com/ebxeax/images/main/cnn22.png)
 
-![cnn23](../images/cnn23.png)
+![cnn23]https://raw.githubusercontent.com/ebxeax/images/main/cnn23.png)
 
 **但CNN无法直接对一个放大的图像做识别，需要data augmentation(对数据集进行旋转，放大，缩小，等操作)**
 
@@ -131,18 +131,18 @@ $$
 ## Bounding-Box
 
 将一张图片分割为有限个单元格(Cell,图中红色网格)   
-![split-pic](../images/split-image.png)  
+![split-pic]https://raw.githubusercontent.com/ebxeax/images/main/split-image.png)  
 每一个输出和标签都是针对每一个单元格的物体中心(midpiont,图中蓝色圆点)
 每一个单元格会有[X1, Y1, X2, Y2]
 对应的物体中心会有一个[X, Y, W, H]  
-![bb1](../images/bounding-box1.png)
+![bb1]https://raw.githubusercontent.com/ebxeax/images/main/bounding-box1.png)
 X, Y 在[0, 1]内表示水平或垂直的距离  
 W, H > 1 表示物体水平或垂直方向上高于该单元格 数值表示水平或垂直方向的单位长度的倍数  
 [0.95, 0.55, 0.5, 1.5]=>显然图像靠近右下角 单元格不能表示出完整的物体  
-![bb2](../images/bounding-box2.png)
+![bb2]https://raw.githubusercontent.com/ebxeax/images/main/bounding-box2.png)
 根据 [X, Y, W, H] => [0.95, 0.55, 0.5, 1.5] 计算得到Bounding Box(图中蓝色网格)
 
-![bbx3](../images/b-box-seq.png)
+![bbx3]https://raw.githubusercontent.com/ebxeax/images/main/b-box-seq.png)
 
 ## Image-Label
 
@@ -160,5 +160,5 @@ $$
 
 ## Model-Framework
 
-![yolov1](../images/yolov1-modelfw.png)
+![yolov1]https://raw.githubusercontent.com/ebxeax/images/main/yolov1-modelfw.png)
 

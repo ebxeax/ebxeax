@@ -28,15 +28,15 @@
 
 实验代码：
 
-![img](../images/v2-21f175a4a5d61ea213eb00ada674a91f_720w.jpg)
+![img]https://raw.githubusercontent.com/ebxeax/images/main/v2-21f175a4a5d61ea213eb00ada674a91f_720w.jpg)
 
 \+ 1.1 缺源文件。下面显示的是首先直接用g++编译main.cpp，出现了"undefined reference to foo()"的问题，未能编译出可执行程序a.out；然后在编译命令行加上foo.cpp(foo函数的定义文件)后，成功编译出a.out，而且执行起来更是非常顺滑～
 
-![img](../images/v2-822709be74e850959deb92c523e077cd_720w.jpg)
+![img]https://raw.githubusercontent.com/ebxeax/images/main/v2-822709be74e850959deb92c523e077cd_720w.jpg)
 
 \+ 1.2 缺目标文件。同样，首先把foo.cpp编译成目标文件foo.o之后，也可以用foo.o来编译，也可以解决"undefined reference to XXX"的问题：
 
-![img](../images/v2-51180c1c46df48fc72168e54d335295d_720w.jpg)
+![img]https://raw.githubusercontent.com/ebxeax/images/main/v2-51180c1c46df48fc72168e54d335295d_720w.jpg)
 
 
 
@@ -44,7 +44,7 @@
 
 
 
-![img](../images/v2-cadace7476d5ec4e70058dc36dece1da_720w.jpg)
+![img]https://raw.githubusercontent.com/ebxeax/images/main/v2-cadace7476d5ec4e70058dc36dece1da_720w.jpg)
 
 
 
@@ -54,7 +54,7 @@
 
 接上节1.3，请看下面的代码：
 
-![img](../images/v2-90fc7952a69eb17462642b91ca896853_720w.jpg)
+![img]https://raw.githubusercontent.com/ebxeax/images/main/v2-90fc7952a69eb17462642b91ca896853_720w.jpg)
 
 
 
@@ -84,7 +84,7 @@
 
 这个很好理解，我们在写代码时，都是用.cpp文件写函数的定义，用.h头文件来写函数的接口声明来实现和接口的分离（那些写#include "xxx.cpp"的牲口，应该祭天～）。但是如果我们在.h文件里面写的声明和.cpp文件里面写的函数定义不一样的话，那就会出"undefined reference to XXX"这个问题，实验代码请看：
 
-![img](../images/v2-8d1b11c9dd97d7c7703214a855449cfb_720w.jpg)
+![img]https://raw.githubusercontent.com/ebxeax/images/main/v2-8d1b11c9dd97d7c7703214a855449cfb_720w.jpg)
 
 
 
@@ -114,19 +114,19 @@
 
 这是实验代码，baz.c是C源文件，里面定义了函数void baz(void)，在C++文件main.cpp里面，引用到了这个函数
 
-![img](../images/v2-afb62cfa60d21137d20889f6e011b645_720w.jpg)
+![img]https://raw.githubusercontent.com/ebxeax/images/main/v2-afb62cfa60d21137d20889f6e011b645_720w.jpg)
 
 
 
 先用gcc编译C文件baz.c得到目标文件baz.o，然后用g++编译C++文件main.cpp和baz.o，就出现了错误：
 
-![img](../images/v2-6c12000ce808b63c16e0518cf929eaa3_720w.jpg)
+![img]https://raw.githubusercontent.com/ebxeax/images/main/v2-6c12000ce808b63c16e0518cf929eaa3_720w.jpg)
 
 
 
 解决方案，加上extern "C"，就可以了：
 
-![img](../images/v2-283e16a9a73b8fb1b63ace00e63a66e8_720w.jpg)
+![img]https://raw.githubusercontent.com/ebxeax/images/main/v2-283e16a9a73b8fb1b63ace00e63a66e8_720w.jpg)
 
 
 
@@ -164,7 +164,7 @@
 
 首先，我们把bar.cpp文件编译成动态库bar.so文件，这个文件提供了函数void bar(int)的实现
 
-![img](../images/v2-41a9ff1bd18b24571bc2b1c7f19ebbe5_720w.jpg)
+![img]https://raw.githubusercontent.com/ebxeax/images/main/v2-41a9ff1bd18b24571bc2b1c7f19ebbe5_720w.jpg)
 
 
 
@@ -172,7 +172,7 @@
 
 
 
-![img](../images/v2-77ca1a8c7aeff379459d2c9104312877_720w.jpg)
+![img]https://raw.githubusercontent.com/ebxeax/images/main/v2-77ca1a8c7aeff379459d2c9104312877_720w.jpg)
 
 
 
@@ -186,7 +186,7 @@
 
 那么，如果我们知道了某个库里面的函数修饰后的名字，有没有什么方法可以反推函数源文件中的声明呢？用c++filt这个命令就可以。还是以上文中_Z3bari为例：
 
-![img](../images/v2-67da7c424fbc66ec761607bcc1d56baa_720w.jpg)
+![img]https://raw.githubusercontent.com/ebxeax/images/main/v2-67da7c424fbc66ec761607bcc1d56baa_720w.jpg)
 
 
 
