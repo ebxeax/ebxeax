@@ -4,4 +4,6 @@
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=ebxeax&layout=compact&count_private=true&theme=dark)
 
-my homepages := [site1](https://ebxeax.github.io) | [site2](https://ebxeax.vercel.app)
+# Website
+- [https://ebxeax.github.io](https://ebxeax.github.io)
+- [https://ebxeax.vercel.app](https://ebxeax.vercel.app)

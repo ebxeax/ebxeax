@@ -7,10 +7,12 @@ mds.sort()
 
 lis = []
 for i in mds:
-    st = '[' + i.split('.md')[0] + ']' + '(https://github.com/ebxeax/ebxeax/md/' + i + ')'
+    st = '- [' + i.split('.md')[0] + ']' + '(https://github.com/ebxeax/ebxeax/blob/master/md/' + i + ')'
     lis.append(st)
 lis.sort()
 
 tree = open('./tree.md', '+w')
-tree.writelines(lis)
+
+for i in lis:
+    tree.write(i + '\n')
 tree.close()
