@@ -1,5 +1,5 @@
 ##### 单层感知机
-![slpmodel](../images/singleLayerPerceptron.png)
+![slpmodel](https://raw.githubusercontent.com/ebxeax/images/main/singleLayerPerceptron.png)
 $$
 \begin{aligned}
 & y = XW + b \\
@@ -71,7 +71,7 @@ w.grad
 
 
 ##### Multi-output Perceptron
-![mop](../images/Multi-outputPerceptron.png)
+![mop](https://raw.githubusercontent.com/ebxeax/images/main/Multi-outputPerceptron.png)
 ##### Derivative
 $$
 \begin{aligned}

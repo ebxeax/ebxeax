@@ -2,9 +2,9 @@
 
 # I/O系统
 
-![image-20210806163855382](../images/image-20210806163855382.jpg)
+![image-20210806163855382](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806163855382.jpg)
 
-![image-20210806164055287](../images/image-20210806164055287.jpg)
+![image-20210806164055287](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806164055287.jpg)
 
 **CPU如何控制键盘I/O的完成？**
 $$
@@ -20,19 +20,19 @@ $$
 
 ## I/O硬件
 
-![image-20210806165815777](../images/image-20210806165815777.jpg)
+![image-20210806165815777](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806165815777.jpg)
 
 #### 程序查询方式
 
-![image-20210806170055057](../images/image-20210806170055057.jpg)
+![image-20210806170055057](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806170055057.jpg)
 
-![image-20210806165553492](../images/image-20210806165553492.jpg)
+![image-20210806165553492](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806165553492.jpg)
 
 #### 程序中断方式
 
-![image-20210806170108933](../images/image-20210806170108933.jpg)
+![image-20210806170108933](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806170108933.jpg)
 
-![image-20210806165602872](../images/image-20210806165602872.jpg)
+![image-20210806165602872](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806165602872.jpg)
 
 #### DMA控制方式
 
@@ -40,23 +40,23 @@ DMA控制器与主存每次传送1个字，当传送完一整块数据后才向C
 
 #### 通道控制方式
 
-![image-20210806165148498](../images/image-20210806165148498.jpg)
+![image-20210806165148498](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806165148498.jpg)
 
 **通道**是具有特殊功能的处理器，能对I/O设备进行统一的管理，通道可以识别并执行一系列**通道指令**，通过指令种类、功能通常比较单一
 
-![image-20210806165333341](../images/image-20210806165333341.jpg)
+![image-20210806165333341](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806165333341.jpg)
 
 ## I/O软件
 
-![image-20210806165837786](../images/image-20210806165837786.jpg)
+![image-20210806165837786](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806165837786.jpg)
 
-![image-20210806165911845](../images/image-20210806165911845.jpg)
+![image-20210806165911845](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806165911845.jpg)
 
-![image-20210806165924844](../images/image-20210806165924844.jpg)
+![image-20210806165924844](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806165924844.jpg)
 
 ### 总结
 
-![image-20210806170008647](../images/image-20210806170008647.jpg)
+![image-20210806170008647](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806170008647.jpg)
 
 ## 外部设备
 
@@ -68,39 +68,39 @@ $$
 \end{align}
 $$
 
-![image-20210806170752700](../images/image-20210806170752700.jpg)
+![image-20210806170752700](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806170752700.jpg)
 
 ### 输入设备
 
-![image-20210806170910600](../images/image-20210806170910600.jpg)
+![image-20210806170910600](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806170910600.jpg)
 
-![image-20210806170922462](../images/image-20210806170922462.jpg)
+![image-20210806170922462](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806170922462.jpg)
 
 ### 输出设备
 
-![image-20210806171237863](../images/image-20210806171237863.jpg)
+![image-20210806171237863](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806171237863.jpg)
 
-![image-20210806171351764](../images/image-20210806171351764.jpg)
+![image-20210806171351764](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806171351764.jpg)
 
-![image-20210806171733638](../images/image-20210806171733638.jpg)
+![image-20210806171733638](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806171733638.jpg)
 
-![image-20210806172041384](../images/image-20210806172041384.jpg)
+![image-20210806172041384](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806172041384.jpg)
 
-![image-20210806172139423](../images/image-20210806172139423.jpg)
+![image-20210806172139423](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806172139423.jpg)
 
-![image-20210806172148195](../images/image-20210806172148195.jpg)
+![image-20210806172148195](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806172148195.jpg)
 
-![image-20210806172302581](../images/image-20210806172302581.jpg)
+![image-20210806172302581](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806172302581.jpg)
 
-![image-20210806172351568](../images/image-20210806172351568.jpg)
+![image-20210806172351568](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806172351568.jpg)
 
 ### 总结
 
-![image-20210806172453188](../images/image-20210806172453188.jpg)
+![image-20210806172453188](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806172453188.jpg)
 
 ## 外存储器
 
-![image-20210806172734774](../images/image-20210806172734774.jpg)
+![image-20210806172734774](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806172734774.jpg)
 
 一次只能读/写1bit数据，且不能同时读写
 
@@ -110,99 +110,99 @@ $$
 
 ##### 存储区域
 
-![image-20210806173100898](../images/image-20210806173100898.jpg)
+![image-20210806173100898](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806173100898.jpg)
 
 ##### 硬盘存储器
 
-![image-20210806173115912](../images/image-20210806173115912.jpg)
+![image-20210806173115912](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806173115912.jpg)
 
 ##### 磁盘的性能指标
 
 ###### 磁盘的容量
 
-![image-20210806210734896](../images/image-20210806210734896.jpg)
+![image-20210806210734896](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806210734896.jpg)
 
 ###### 记录密度
 
-![image-20210806210815041](../images/image-20210806210815041.jpg)
+![image-20210806210815041](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806210815041.jpg)
 
-![image-20210806210916872](../images/image-20210806210916872.jpg)
+![image-20210806210916872](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806210916872.jpg)
 
-![image-20210806210950153](../images/image-20210806210950153.jpg)
+![image-20210806210950153](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806210950153.jpg)
 
 ###### 平均存取时间
 
-![image-20210806210857099](../images/image-20210806210857099.jpg)
+![image-20210806210857099](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806210857099.jpg)
 
 ###### 数据传输率
 
-![image-20210806210830675](../images/image-20210806210830675.jpg)
+![image-20210806210830675](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806210830675.jpg)
 $$
 \begin{align}
 假设磁盘转数为r(转/秒)，每条磁道容量为N个字节，则数据传输率为D_r=rN
 \end{align}
 $$
-![image-20210806211017907](../images/image-20210806211017907.jpg)
+![image-20210806211017907](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806211017907.jpg)
 
 ##### 磁盘地址
 
-![image-20210806212229096](../images/image-20210806212229096.jpg)
+![image-20210806212229096](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806212229096.jpg)
 
 ##### 磁盘的工作过程
 
-![image-20210806212326766](../images/image-20210806212326766.jpg)
+![image-20210806212326766](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806212326766.jpg)
 
-![image-20210806212339138](../images/image-20210806212339138.jpg)
+![image-20210806212339138](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806212339138.jpg)
 
 #### 磁盘阵列
 
-![image-20210806212536196](../images/image-20210806212536196.jpg)
+![image-20210806212536196](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806212536196.jpg)
 
-![image-20210806212603961](../images/image-20210806212603961.jpg)
+![image-20210806212603961](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806212603961.jpg)
 
 ##### RAID0&RAID1
 
-![image-20210806212620031](../images/image-20210806212620031.jpg)
+![image-20210806212620031](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806212620031.jpg)
 
-![image-20210806212631266](../images/image-20210806212631266.jpg)
+![image-20210806212631266](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806212631266.jpg)
 
-![image-20210806212810630](../images/image-20210806212810630.jpg)
+![image-20210806212810630](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806212810630.jpg)
 
-![image-20210806212853261](../images/image-20210806212853261.jpg)
+![image-20210806212853261](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806212853261.jpg)
 
 ##### RAID2
 
-![image-20210806212642401](../images/image-20210806212642401.jpg)
+![image-20210806212642401](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806212642401.jpg)
 
-![image-20210806212832631](../images/image-20210806212832631.jpg)
+![image-20210806212832631](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806212832631.jpg)
 
 ##### RAID3&RAID4&RAID5
 
-![image-20210806212910891](../images/image-20210806212910891.jpg)
+![image-20210806212910891](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806212910891.jpg)
 
 RAID通过同时使用多个磁盘，提高传输率；通过多个磁盘上并行存取来大幅度提高存储系统的数据吞吐量；通过镜像功能，可以提高安全可靠性；通过数据校验，可以提高容错能力
 
 #### 光盘存储器
 
-![image-20210806213252093](../images/image-20210806213252093.jpg)
+![image-20210806213252093](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806213252093.jpg)
 
 #### 固态硬盘
 
-![image-20210806213330220](../images/image-20210806213330220.jpg)
+![image-20210806213330220](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806213330220.jpg)
 
 ### 总结
 
-![image-20210806213423090](../images/image-20210806213423090.jpg)
+![image-20210806213423090](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806213423090.jpg)
 
 ## I/O接口
 
-![image-20210806213950429](../images/image-20210806213950429.jpg)
+![image-20210806213950429](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806213950429.jpg)
 
 ### I/O接口的作用
 
-![image-20210806214142881](../images/image-20210806214142881.jpg)
+![image-20210806214142881](https://raw.githubusercontent.com/ebxeax/images/main/image-20210806214142881.jpg)
 
-![image-20210813161648960](../images/image-20210813161648960.jpg)
+![image-20210813161648960](https://raw.githubusercontent.com/ebxeax/images/main/image-20210813161648960.jpg)
 
 数据缓冲寄存器
 
@@ -222,33 +222,33 @@ RAID通过同时使用多个磁盘，提高传输率；通过多个磁盘上并�
 
 #### 统一编址
 
-![image-20210813163256072](../images/image-20210813163256072.jpg)
+![image-20210813163256072](https://raw.githubusercontent.com/ebxeax/images/main/image-20210813163256072.jpg)
 
-![image-20210813163201150](../images/image-20210813163201150.jpg)
+![image-20210813163201150](https://raw.githubusercontent.com/ebxeax/images/main/image-20210813163201150.jpg)
 
 #### 独立编址
 
-![image-20210813163241572](../images/image-20210813163241572.jpg)
+![image-20210813163241572](https://raw.githubusercontent.com/ebxeax/images/main/image-20210813163241572.jpg)
 
-![image-20210813163214727](../images/image-20210813163214727.jpg)
+![image-20210813163214727](https://raw.githubusercontent.com/ebxeax/images/main/image-20210813163214727.jpg)
 
 ### I/O接口类型
 
-![image-20210813163347023](../images/image-20210813163347023.jpg)
+![image-20210813163347023](https://raw.githubusercontent.com/ebxeax/images/main/image-20210813163347023.jpg)
 
 ### 总结
 
-![image-20210813163409152](../images/image-20210813163409152.jpg)
+![image-20210813163409152](https://raw.githubusercontent.com/ebxeax/images/main/image-20210813163409152.jpg)
 
 ## I/O方式
 
 ### 程序查询方式
 
-![image-20210813180820262](../images/image-20210813180820262.jpg)
+![image-20210813180820262](https://raw.githubusercontent.com/ebxeax/images/main/image-20210813180820262.jpg)
 
 例题
 
-![image-20210813181124355](../images/image-20210813181124355.jpg)
+![image-20210813181124355](https://raw.githubusercontent.com/ebxeax/images/main/image-20210813181124355.jpg)
 $$
 \begin{align}
 &时间角度：\\
@@ -268,85 +268,85 @@ $$
 
 ###  程序中断方式
 
-![image-20210813185043891](../images/image-20210813185043891.jpg)
+![image-20210813185043891](https://raw.githubusercontent.com/ebxeax/images/main/image-20210813185043891.jpg)
 
 #### 中断
 
-![image-20210813214458403](../images/image-20210813214458403.jpg)
+![image-20210813214458403](https://raw.githubusercontent.com/ebxeax/images/main/image-20210813214458403.jpg)
 
 #### 中断方式
 
-![image-20210813214635761](../images/image-20210813214635761.jpg)
+![image-20210813214635761](https://raw.githubusercontent.com/ebxeax/images/main/image-20210813214635761.jpg)
 
 #### 中断请求标记
 
-![image-20210813214923823](../images/image-20210813214923823.jpg)
+![image-20210813214923823](https://raw.githubusercontent.com/ebxeax/images/main/image-20210813214923823.jpg)
 
 #### 中断判优
 
 ##### 硬件排队器&查询程序
 
-![image-20210813215205716](../images/image-20210813215205716.jpg)
+![image-20210813215205716](https://raw.githubusercontent.com/ebxeax/images/main/image-20210813215205716.jpg)
 
 ##### 优先级设置
 
-![image-20210813215410647](../images/image-20210813215410647.jpg)
+![image-20210813215410647](https://raw.githubusercontent.com/ebxeax/images/main/image-20210813215410647.jpg)
 
 ##### 处理过程
 
-![image-20210813215538505](../images/image-20210813215538505.jpg)
+![image-20210813215538505](https://raw.githubusercontent.com/ebxeax/images/main/image-20210813215538505.jpg)
 
 ###### 中断隐指令（一系列的指令）
 
-![image-20210813215641585](../images/image-20210813215641585.jpg)
+![image-20210813215641585](https://raw.githubusercontent.com/ebxeax/images/main/image-20210813215641585.jpg)
 
 ###### 硬件向量法（二级指针【向量地址-----入口地址】）
 
-![image-20210813215940720](../images/image-20210813215940720.jpg)
+![image-20210813215940720](https://raw.githubusercontent.com/ebxeax/images/main/image-20210813215940720.jpg)
 
 ##### 中断服务程序
 
-![image-20210813220248708](../images/image-20210813220248708.jpg)
+![image-20210813220248708](https://raw.githubusercontent.com/ebxeax/images/main/image-20210813220248708.jpg)
 
 ##### 总结：中断处理过程
 
 单重中断
 
-![image-20210813220436008](../images/image-20210813220436008.jpg)
+![image-20210813220436008](https://raw.githubusercontent.com/ebxeax/images/main/image-20210813220436008.jpg)
 
 ## 多重中断（中断嵌套）
 
 ### 单重中断&多重中断
 
-![image-20210814151329290](../images/image-20210814151329290.jpg)
+![image-20210814151329290](https://raw.githubusercontent.com/ebxeax/images/main/image-20210814151329290.jpg)
 
-![image-20210814151340847](../images/image-20210814151340847.jpg)
+![image-20210814151340847](https://raw.githubusercontent.com/ebxeax/images/main/image-20210814151340847.jpg)
 
 ### 中断屏蔽技术
 
-![image-20210814151543557](../images/image-20210814151543557.jpg)
+![image-20210814151543557](https://raw.githubusercontent.com/ebxeax/images/main/image-20210814151543557.jpg)
 
-![image-20210814151559383](../images/image-20210814151559383.jpg)
+![image-20210814151559383](https://raw.githubusercontent.com/ebxeax/images/main/image-20210814151559383.jpg)
 
-![image-20210814151621213](../images/image-20210814151621213.jpg)
+![image-20210814151621213](https://raw.githubusercontent.com/ebxeax/images/main/image-20210814151621213.jpg)
 
 例题
 
-![image-20210814151646383](../images/image-20210814151646383.jpg)
+![image-20210814151646383](https://raw.githubusercontent.com/ebxeax/images/main/image-20210814151646383.jpg)
 
-![image-20210814153726480](../images/image-20210814153726480.jpg)
+![image-20210814153726480](https://raw.githubusercontent.com/ebxeax/images/main/image-20210814153726480.jpg)
 
 **总结**
 
-![image-20210814153820909](../images/image-20210814153820909.jpg)
+![image-20210814153820909](https://raw.githubusercontent.com/ebxeax/images/main/image-20210814153820909.jpg)
 
 ## 程序中断方式
 
-![image-20210814154819165](../images/image-20210814154819165.jpg)
+![image-20210814154819165](https://raw.githubusercontent.com/ebxeax/images/main/image-20210814154819165.jpg)
 
 例题
 
-![image-20210814154840327](../images/image-20210814154840327.jpg)
+![image-20210814154840327](https://raw.githubusercontent.com/ebxeax/images/main/image-20210814154840327.jpg)
 $$
 \begin{align}
 &（1）数据位7位，1位校验位，1位起始位，1位终止位，共需传送10位\\
@@ -357,7 +357,7 @@ $$
 &传送1000个字符需要的时钟周期为25070*1000=25070000
 \end{align}
 $$
-![image-20210814161443760](../images/image-20210814161443760.jpg)
+![image-20210814161443760](https://raw.githubusercontent.com/ebxeax/images/main/image-20210814161443760.jpg)
 $$
 \begin{align}
 &(3)CPU用于该任务的时间大约为1000*(10+20*4)=9*10^4个时钟周期\\
@@ -367,45 +367,45 @@ $$
 
 ### 总结
 
-![image-20210814161947278](../images/image-20210814161947278.jpg)
+![image-20210814161947278](https://raw.githubusercontent.com/ebxeax/images/main/image-20210814161947278.jpg)
 
 ## DMA方式
 
-![image-20210814162826190](../images/image-20210814162826190.jpg)
+![image-20210814162826190](https://raw.githubusercontent.com/ebxeax/images/main/image-20210814162826190.jpg)
 
 ### DMA控制器
 
-![image-20210814163120177](../images/image-20210814163120177.jpg)
+![image-20210814163120177](https://raw.githubusercontent.com/ebxeax/images/main/image-20210814163120177.jpg)
 
 ### DMA传送过程
 
-![image-20210814163313746](../images/image-20210814163313746.jpg)
+![image-20210814163313746](https://raw.githubusercontent.com/ebxeax/images/main/image-20210814163313746.jpg)
 
-![image-20210814163301338](../images/image-20210814163301338.jpg)
+![image-20210814163301338](https://raw.githubusercontent.com/ebxeax/images/main/image-20210814163301338.jpg)
 
 ### DMA方式的特点
 
-![image-20210814163351381](../images/image-20210814163351381.jpg)
+![image-20210814163351381](https://raw.githubusercontent.com/ebxeax/images/main/image-20210814163351381.jpg)
 
 ### DMA传送方式
 
 #### 停止CPU访问主存
 
-![image-20210814163651635](../images/image-20210814163651635.jpg)
+![image-20210814163651635](https://raw.githubusercontent.com/ebxeax/images/main/image-20210814163651635.jpg)
 
 #### DMA与CPU交替访存
 
-![image-20210814163707107](../images/image-20210814163707107.jpg)
+![image-20210814163707107](https://raw.githubusercontent.com/ebxeax/images/main/image-20210814163707107.jpg)
 
 #### 周期挪用（周期窃取）
 
-![image-20210814163720513](../images/image-20210814163720513.jpg)
+![image-20210814163720513](https://raw.githubusercontent.com/ebxeax/images/main/image-20210814163720513.jpg)
 
 ### DMA方式&中断方式
 
-![image-20210814163905587](../images/image-20210814163905587.jpg)
+![image-20210814163905587](https://raw.githubusercontent.com/ebxeax/images/main/image-20210814163905587.jpg)
 
 ### 总结
 
-![image-20210814163924085](../images/image-20210814163924085.jpg)
+![image-20210814163924085](https://raw.githubusercontent.com/ebxeax/images/main/image-20210814163924085.jpg)
 
