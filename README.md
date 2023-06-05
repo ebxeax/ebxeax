@@ -1,8 +1,5 @@
 # Welcome to my homepage
 
-![ebxeax's GitHub stats](https://github-readme-stats.vercel.app/api?username=ebxeax&count_private=true&theme=dark)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=ebxeax&layout=compact&count_private=true&theme=dark)
 
 # Website [temp use waiting for finishing post sys]
 - [https://ebxeax.github.io](https://ebxeax.github.io)
@@ -62,3 +59,7 @@
 - [PCC_006_第六章-总线](https://github.com/ebxeax/ebxeax/blob/master/md/PCC_006_第六章-总线.md)
 - [PCC_007_第七章-I⁄O](https://github.com/ebxeax/ebxeax/blob/master/md/PCC_007_第七章-I⁄O.md)
 - [YOLO_001_from-CNN-to-YOLOv1](https://github.com/ebxeax/ebxeax/blob/master/md/YOLO_001_from-CNN-to-YOLOv1.md)
+
+![ebxeax's GitHub stats](https://github-readme-stats.vercel.app/api?username=ebxeax&count_private=true&theme=dark)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=ebxeax&layout=compact&count_private=true&theme=dark)
