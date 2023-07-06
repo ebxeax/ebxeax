@@ -67,7 +67,7 @@ graph LR
 开中断2-->中断返回
 ```
 
-![os_1](https://raw.githubusercontent.com/ebxeax/images/main/os_1.png)
+![os_1](../imgs/OS/os_1.png)
 
 ## 系统调用
 
@@ -134,11 +134,11 @@ graph LR
 周转时间：从作业提交到作业完成所用时间
 
 $$
-&T=t_{等待}+t_{就绪队列排队}+t_{上处理机运行及输入输出}\\
-&t_{周转时间}=t_{作业完成时间}-t_{作业提交时间}\\
-&t_{平均周转时间}=\frac{\sum_i^n{t_i}}{n}(作业i的周转时间：t_i)\\
-&t_{带权周转时间}=\frac{t_{作业周转时间}}{t_{作业实际运转}}\geq{1}\\
-&t_{带权平均周转时间}=\frac{\sum_i^n{t_i}}{n}(作业i的带权周转时间：t_i)\\
+T=t_{等待}+t_{就绪队列排队}+t_{上处理机运行及输入输出}\\
+t_{周转时间}=t_{作业完成时间}-t_{作业提交时间}\\
+t_{平均周转时间}=\frac{\sum_i^n{t_i}}{n}(作业i的周转时间：t_i)\\
+t_{带权周转时间}=\frac{t_{作业周转时间}}{t_{作业实际运转}}\geq{1}\\
+t_{带权平均周转时间}=\frac{\sum_i^n{t_i}}{n}(作业i的带权周转时间：t_i)\\
 $$
 
 等待时间：进程处于等处理机状态的时间和
@@ -158,7 +158,7 @@ $$
 5.高响应比优先（HRRN）：多用于早期批处理系统
 
 $$
-&响应比R_p=\frac{t_{等待时间}+t_{要求服务时间}}{t_{要求服务时间}}\geq{1}\\
+响应比R_p=\frac{t_{等待时间}+t_{要求服务时间}}{t_{要求服务时间}}\geq{1}\\
 $$
 
 6.时间片轮转调度（RR）：时间片大小设置对系统性能影响很大，时间片足够大，以至于所有进程都能在一个时间片完成，退化为先来先服务算法；时间片太小，处理机频繁在进程间切换，增加处理机开销；时间片长短由系统的响应时间、就绪队列的进程数目、系统处理能力决定；不会导致饥饿
@@ -268,7 +268,7 @@ P2(){
 
 对不同的临界资源设置不同的互斥信号量，PV必须成对出现
 
-![OS_mutex](https://raw.githubusercontent.com/ebxeax/images/main/OS_mutex.png)
+![OS_mutex](../imgs/OS/OS_mutex.png)
 
 ``` C++
 semaphore a1 = a2 = b1 = b2 = c = d = e = 0;
@@ -547,7 +547,7 @@ $$Need = Max -Allocation$$
 
 - 资源分配图
 
-![source_allocation](https://raw.githubusercontent.com/ebxeax/images/main/source_allocation.png)
+![source_allocation](../imgs/OS/source_allocation.png)
 
 请求边：从进程到资源
 分配边：从资源到进程
@@ -630,7 +630,7 @@ $$Need = Max -Allocation$$
 
 - 地址结构
 
-![single_page](https://raw.githubusercontent.com/ebxeax/images/main/single_page.png)
+![single_page](../imgs/OS/single_page.png)
 
 - 页表：通过查找页表即可找到相应的物理块
 
@@ -638,14 +638,16 @@ $$Need = Max -Allocation$$
 
 将逻辑地址变换为内存中的物理地址，在系统中设置页表寄存器（PTR）存放内存起始地址F和页表长度M。
 
-![page_allocation_transform](https://raw.githubusercontent.com/ebxeax/images/main/page_allocation_transform.png)
+![page_allocation_transform](../imgs/OS/page_allocation_transform.png)
 
 $$
+\begin{aligned}
 &（1）页号P=\frac{A}{L}\\
 &（2）页内偏移量W=A\%L\\
 &（3）比较页号P和页表长度M，P\geq M产生越界中断\\
 &（4）页表中页号P对应的页表项地址A=F+P*M\\
 &（5）物理地址E=b*L+W\\
+\end{aligned}
 $$
 *页式管理中空间地址是一维的*
 
@@ -655,7 +657,7 @@ $$
 
 引入快表机制：在地址变换过程中加入具有并行查找能力的高速缓冲存储器——**快表**（相联存储器TLB，主存中的页表为**慢表**）
 
-![add_TLB_page_allocation_transform](https://raw.githubusercontent.com/ebxeax/images/main/add_TLB_page_allocation_transform.png)
+![add_TLB_page_allocation_transform](../imgs/OS/add_TLB_page_allocation_transform.png)
 
 一次地址变换流程
 
@@ -671,13 +673,14 @@ $$
 
 - 引入页表，执行时不需要调入所有内存页框，为了压缩页表，采取多级映射
 
-![2_dim_page](https://raw.githubusercontent.com/ebxeax/images/main/2_dim_page.png)
+![2_dim_page](../imgs/OS/2_dim_page.png)
 
 - 多级页表大小不能超过一个页面
 
-![2_dim_page_arch](https://raw.githubusercontent.com/ebxeax/images/main/2_dim_page_arch.png)
+![2_dim_page_arch](../imgs/OS/2_dim_page_arch.png)
 
 $$
+\begin{aligned}
 &逻辑地址：32bit\\
 &以字节编址\\
 &页表项：4B\\
@@ -702,6 +705,7 @@ $$
 &一级页表占用log_2{1K}=10位\\
 &二级页表占用20-10=10位\\
 &二级页表大小2^{10}*4B=4KB\leq页面大小4KB\\
+\end{aligned}
 $$
 
 **基本分段存储管理方式**
@@ -710,24 +714,24 @@ $$
 
 分段管理是从用户和程序员出发，方便编程、信息保护和共享、动态增长以及动态链接等方面的需要
 
-![single_seg](https://raw.githubusercontent.com/ebxeax/images/main/single_seg.png)
+![single_seg](../imgs/OS/single_seg.png)
 
 段号决定每个进程最多可以分几个段，段内地址决定每个段内的最大长度
 
 段表：每个进程都有一张逻辑空间与内存空间映射的段表
 
-![seg](https://raw.githubusercontent.com/ebxeax/images/main/seg.png)
+![seg](../imgs/OS/seg.png)
 
 地址变换机构
 
-![分段地址变换机构](https://raw.githubusercontent.com/ebxeax/images/main/segment_address_translation_mechanism.png)
+![分段地址变换机构](../imgs/OS/segment_address_translation_mechanism.png)
 
 $$
-&从逻辑地址A中取出前几位为段号S，后几位为段内偏移量W\\
-&比较段号S和段表长度M，S\geq M,产生越界中断，否则继续执行\\
-&段表中段号S对应段表项地址=段表始址F+段号S*段表项长度\\
-&段内偏移量\geq C，产生越界中断，否则继续执行\\
-&取出段表项中该段的起始地址b，E=b+W，得到物理地址E去访问内存\\
+从逻辑地址A中取出前几位为段号S，后几位为段内偏移量W\\
+比较段号S和段表长度M，S\geq M,产生越界中断，否则继续执行\\
+段表中段号S对应段表项地址=段表始址F+段号S*段表项长度\\
+段内偏移量\geq C，产生越界中断，否则继续执行\\
+取出段表项中该段的起始地址b，E=b+W，得到物理地址E去访问内存\\
 $$
 
 段的共享与保护：分段系统，通过两个作业的段表中相应表项指向被共享的段同一个物理副本，当地一个作业从共享段读取数据，必须防止另一个修改数据，不能修改的的代码称为**纯代码、可重入代码**
@@ -747,13 +751,13 @@ $$
 
 段页式系统的逻辑地址结构：
 
-![OS_page_seg_add](https://raw.githubusercontent.com/ebxeax/images/main/OS_page_seg_add.png)
+![OS_page_seg_add](../imgs/OS/OS_page_seg_add.png)
 
 地址变换
 
 需要三次访存，可以使用快表机制
 
-![segment_page_address_translation_mechanism](https://raw.githubusercontent.com/ebxeax/images/main/segment_page_address_translation_mechanism.png)
+![segment_page_address_translation_mechanism](../imgs/OS/segment_page_address_translation_mechanism.png)
 
 **虚拟内存管理**
 
@@ -789,13 +793,13 @@ $$
 
 页表机制
 
-![Request_paging_page_table_mechanism](https://raw.githubusercontent.com/ebxeax/images/main/Request_paging_page_table_mechanism.png)
+![Request_paging_page_table_mechanism](../imgs/OS/Request_paging_page_table_mechanism.png)
 
 $$
-&状态位P：指示是否调入内存\\
-&访问字段A：记录一段时间内被访问的次数\\
-&修改位M：标识页面调入内存后是否被修改过\\
-&外存地址：指出该页在外存上的地址，通常是物理块号\\
+状态位P：指示是否调入内存\\
+访问字段A：记录一段时间内被访问的次数\\
+修改位M：标识页面调入内存后是否被修改过\\
+外存地址：指出该页在外存上的地址，通常是物理块号\\
 $$
 
 缺页中断机制
@@ -804,7 +808,7 @@ $$
 
 地址变换机构
 
-![request_paging_address_translation_mechanism](https://raw.githubusercontent.com/ebxeax/images/main/request_paging_address_translation_mechanism.png)
+![request_paging_address_translation_mechanism](../imgs/OS/request_paging_address_translation_mechanism.png)
 
 页面置换算法
 
