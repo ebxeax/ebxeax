@@ -1,18 +1,29 @@
 import os
-
-mds = os.listdir('./md')
+dir = './md/'
+mds = os.listdir(dir)
 mds.sort()
-#print(len(mds))
-#print(mds[1:9])
-
 lis = []
 for i in mds:
     st = '- [' + i.split('.md')[0] + ']' + '(https://github.com/ebxeax/ebxeax/blob/master/md/' + i + ')'
     lis.append(st)
 lis.sort()
 
-tree = open('./tree.md', '+w')
+rd0 = """# Welcome to my homepage
 
+![ebxeax's GitHub stats](https://github-readme-stats.vercel.app/api?username=ebxeax&count_private=true&theme=dark)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=ebxeax&layout=compact&count_private=true&theme=dark)
+
+## Website [temp use waiting for finishing post sys]
+- [https://ebxeax.github.io](https://ebxeax.github.io)
+- [https://ebxeax.vercel.app](https://ebxeax.vercel.app)
+
+## Markdown Tree 
+
+"""
+
+rd = open('./README.md', '+w')
+rd.write(rd0)
 for i in lis:
-    tree.write(i + '\n')
-tree.close()
+    rd.write(i + '\n')
+rd.close()
