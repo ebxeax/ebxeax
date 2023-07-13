@@ -1,24 +1,26 @@
 #include <iostream>
+#define dtype unsigned int 
 
 class TLB
 {
 private:
-    int idx;
-    int *data;
-    int block_idx;
+    dtype idx;
+    dtype *data;
+    dtype block_idx;
 
 public:
-    int get_block_idx() { return block_idx; }
-    int get_data(int id) { return data[id]; }
+    void set_idx(unsigned id){}
+    dtype get_block_idx() { return block_idx; }
+    dtype get_data(int id) { return data[id]; }
 };
 
 class sTLB : TLB
 {
 private:
-    unsigned int tag = 0;
-    unsigned int cache = 0;
+    dtype tag = 0;
+    dtype cache = 0;
 public :
-    void set_tag(unsigned int t){ tag = t; }
-    void set_cache(unsigned int c){ cache = c; }
+    void set_tag(dtype t){ tag = t; }
+    void set_cache(dtype c){ cache = c; }
     void print_info() { std::cout << tag << " " << cache << std::endl; }
 };
