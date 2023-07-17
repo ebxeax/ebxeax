@@ -64,4 +64,5 @@
 - [PCC_006_第六章-总线](https://github.com/ebxeax/ebxeax/blob/master/md/PCC_006_第六章-总线.md)
 - [PCC_007_第七章-I⁄O](https://github.com/ebxeax/ebxeax/blob/master/md/PCC_007_第七章-I⁄O.md)
 - [YOLO_001_from-CNN-to-YOLOv1](https://github.com/ebxeax/ebxeax/blob/master/md/YOLO_001_from-CNN-to-YOLOv1.md)
+- [指令系统](https://github.com/ebxeax/ebxeax/blob/master/md/指令系统.md)
 - [虚拟存储器·页式·段式·段页式](https://github.com/ebxeax/ebxeax/blob/master/md/虚拟存储器·页式·段式·段页式.md)
