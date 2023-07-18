@@ -13,6 +13,7 @@
 
 |date|url|
 |-|-|
+|2023-07-18 09:32:24|[Cache和主存的映射·替换算法·写策略](https://github.com/ebxeax/ebxeax/blob/master/md/Cache和主存的映射·替换算法·写策略.md)
 |2023-07-17 22:29:16|[指令系统](https://github.com/ebxeax/ebxeax/blob/master/md/指令系统.md)
 |2023-07-08 22:48:24|[虚拟存储器·页式·段式·段页式](https://github.com/ebxeax/ebxeax/blob/master/md/虚拟存储器·页式·段式·段页式.md)
 |2023-07-07 07:56:51|[OS_002_Sync-problem](https://github.com/ebxeax/ebxeax/blob/master/md/OS_002_Sync-problem.md)
@@ -27,7 +28,6 @@
 |2023-07-07 07:56:51|[DS_0011_basicConcept](https://github.com/ebxeax/ebxeax/blob/master/md/DS_0011_basicConcept.md)
 |2023-07-07 07:56:49|[PCC_002_data_expression_and_calculate](https://github.com/ebxeax/ebxeax/blob/master/md/PCC_002_data_expression_and_calculate.md)
 |2023-07-07 07:56:49|[DS_003_stack_queue](https://github.com/ebxeax/ebxeax/blob/master/md/DS_003_stack_queue.md)
-|2023-07-07 07:56:49|[Cache和主存的映射·替换算法·写策略](https://github.com/ebxeax/ebxeax/blob/master/md/Cache和主存的映射·替换算法·写策略.md)
 |2023-07-07 07:56:26|[YOLO_001_from-CNN-to-YOLOv1](https://github.com/ebxeax/ebxeax/blob/master/md/YOLO_001_from-CNN-to-YOLOv1.md)
 |2023-07-07 07:56:26|[PCC_007_第七章-I⁄O](https://github.com/ebxeax/ebxeax/blob/master/md/PCC_007_第七章-I⁄O.md)
 |2023-07-07 07:56:26|[PCC_006_第六章-总线](https://github.com/ebxeax/ebxeax/blob/master/md/PCC_006_第六章-总线.md)
