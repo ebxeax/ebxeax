@@ -1,2 +1,2 @@
-python3 treeGen.py
+python3 tableGen.py
 bash ./flash.sh

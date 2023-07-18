@@ -1,13 +1,25 @@
-import os
+import os, time, datetime
+def t(f):
+    ti = os.path.getctime(f)
+    til = time.localtime(ti)
+    return time.strftime("%Y-%m-%d %H:%M:%S", til)
+
 dir = './md/'
-mds = os.listdir(dir)
-mds.sort()
-lis = []
+name = os.listdir(dir)
+print(name)
+mdline = []
 url = 'https://github.com/ebxeax/ebxeax/blob/master/md/'
-for i in mds:
-    st = '- [' + i.split('.md')[0] + '](' + url + i + ')'
-    lis.append(st)
-lis.sort()
+for i in name:
+    link = '[' + i.split('.md')[0] + '](' + url + i + ')'
+    mdline.append("|" + t(dir + i) + "|" + link)
+
+mdline.sort()
+mdline.reverse()
+
+title = """
+|date|url|
+|-|-|
+"""
 
 rd0 = """# Welcome to my homepage
 
@@ -19,12 +31,13 @@ rd0 = """# Welcome to my homepage
 - [https://ebxeax.github.io](https://ebxeax.github.io)
 - [https://ebxeax.vercel.app](https://ebxeax.vercel.app)
 
-## Markdown Tree 
+## Markdown Table 
 
 """
 
 rd = open('./README.md', '+w')
 rd.write(rd0)
-for i in lis:
+rd.write(title)
+for i in mdline:
     rd.write(i + '\n')
 rd.close()
