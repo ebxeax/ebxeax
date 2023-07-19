@@ -6,7 +6,7 @@ def t(f):
 
 dir = './md/'
 name = os.listdir(dir)
-print(">>>file :" + len(name) + " files")
+print(">>>file :" + str(len(name)) + " files")
 mdline = []
 url = 'https://github.com/ebxeax/ebxeax/blob/master/md/'
 for i in name:
