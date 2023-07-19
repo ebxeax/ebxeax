@@ -6,7 +6,7 @@ def t(f):
 
 dir = './md/'
 name = os.listdir(dir)
-print(">>>File :" + str(len(name)) + " files")
+print(">>>File : " + str(len(name)) + " files")
 mdline = []
 url = 'https://github.com/ebxeax/ebxeax/blob/master/md/'
 for i in name:
@@ -41,3 +41,4 @@ rd.write(title)
 for i in mdline:
     rd.write(i + '\n')
 rd.close()
+print(">>>Info : Success gen table")
