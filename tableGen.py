@@ -6,7 +6,7 @@ def t(f):
 
 dir = './md/'
 name = os.listdir(dir)
-print(name)
+print(">>>file :" + len(name) + " files")
 mdline = []
 url = 'https://github.com/ebxeax/ebxeax/blob/master/md/'
 for i in name:
@@ -17,7 +17,7 @@ mdline.sort()
 mdline.reverse()
 
 title = """
-|date|url|
+|lastest modified date|markdown links|
 |-|-|
 """
 
