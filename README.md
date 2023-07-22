@@ -13,7 +13,6 @@
 
 |lastest modified date|markdown links|
 |-|-|
-|2023-07-22 08:07:08|[markdown_tutorial](https://github.com/ebxeax/ebxeax/blob/master/md/markdown_tutorial.md)
 |2023-07-22 08:04:19|[中央处理器](https://github.com/ebxeax/ebxeax/blob/master/md/中央处理器.md)
 |2023-07-20 17:16:52|[指令系统](https://github.com/ebxeax/ebxeax/blob/master/md/指令系统.md)
 |2023-07-18 09:32:24|[Cache和主存的映射·替换算法·写策略](https://github.com/ebxeax/ebxeax/blob/master/md/Cache和主存的映射·替换算法·写策略.md)
