@@ -13,3 +13,7 @@
 
 |lastest modified date|markdown links|
 |-|-|
+|2023-07-24 09:55:59|[虚拟存储器·页式·段式·段页式](https://github.com/ebxeax/ebxeax/blob/master/md/虚拟存储器·页式·段式·段页式.md)
+|2023-07-24 09:55:59|[指令系统](https://github.com/ebxeax/ebxeax/blob/master/md/指令系统.md)
+|2023-07-24 09:55:59|[中央处理器](https://github.com/ebxeax/ebxeax/blob/master/md/中央处理器.md)
+|2023-07-24 09:55:59|[YOLO_001_from-CNN-to-YOLOv1](https://github.com/ebxeax/ebxeax/blob/master/md/YOLO_001_from-CNN-to-YOLOv1.md)

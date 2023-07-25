@@ -39,6 +39,6 @@ rd = open('./README.md', '+w')
 rd.write(rd0)
 rd.write(title)
 for i in mdline:
-    rd.writeline(i)
+    rd.write(i + '\n')
 rd.close()
 print(">>>Info : Success gen table")
