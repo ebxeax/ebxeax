@@ -1,2 +1,2 @@
 python tableGen.py
-./flash.bat
+call ./flash.bat
