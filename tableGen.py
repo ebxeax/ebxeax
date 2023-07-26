@@ -35,7 +35,7 @@ rd0 = """# Welcome to my homepage
 
 """
 
-rd = open('./README.md', '+w')
+rd = open('./README.md', '+w', encoding="utf-8")
 rd.write(rd0)
 rd.write(title)
 for i in mdline:
