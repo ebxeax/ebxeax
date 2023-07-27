@@ -1,6 +1,6 @@
 import os, time
 def t(f):
-    ti = os.path.getmtime(f)
+    ti = os.path.getctime(f)
     til = time.localtime(ti)
     return time.strftime("%Y-%m-%d %H:%M:%S", til)
 
