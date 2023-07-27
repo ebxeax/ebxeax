@@ -4,6 +4,11 @@ def t(f):
     til = time.localtime(ti)
     return time.strftime("%Y-%m-%d %H:%M:%S", til)
 
+def t_c(f):
+    ti = os.path.getatime(f)
+    til = time.localtime(ti)
+    return time.strftime("%Y-%m-%d %H:%M:%S", til)
+
 dir = './md/'
 name = os.listdir(dir)
 print(">>>File : " + str(len(name)) + " files")
@@ -11,14 +16,14 @@ mdline = []
 url = 'https://github.com/ebxeax/ebxeax/blob/master/md/'
 for i in name:
     link = '[' + i.split('.md')[0] + '](' + url + i + ')'
-    mdline.append("|" + t(dir + i) + "|" + link)
+    mdline.append("|" + t_c(dir + i) + "|" + t(dir + i) + "|" + link)
 
 mdline.sort()
 mdline.reverse()
 
 title = """
-|lastest modified date|markdown links|
-|-|-|
+|created date|lastest modified date|markdown links|
+|-|-|-|
 """
 
 rd0 = """# Welcome to my homepage
